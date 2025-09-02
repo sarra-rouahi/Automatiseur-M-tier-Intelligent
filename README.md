@@ -10,11 +10,11 @@ Il permet d’automatiser des processus métier en intégrant :
 
 ---
 ## Exemple de workflow
-
 1. Un email arrive → déclencheur `EmailReceivedTrigger`
 2. Extraction du texte avec OCR (si pièce jointe)
-3. Analyse NLP pour résumé ou sentiment
-4. Action finale : envoyer un message sur le CRM ou créer un événement Calendar
+3. Analyse NLP pour sentiment
+4. Analyse NLP pour résumé  
+5.  créer un événement Calendar
 
 
 ## Technologies utilisées
@@ -73,3 +73,4 @@ npm start
 
 ## Licence
 Projet interne / Stage – tous droits réservés
+
